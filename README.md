@@ -1,6 +1,22 @@
-# Experiment 1# 1.Experimental verification of Signal sampling using various types.
+# 1.Experimental verification of Signal sampling using various types
+
+# Aim
+Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
+
+# Tools required
+
+Google Colab
+Python
+NumPy Library
+Matplotlib Library
+Internet Connection
+Computer / Laptop
+
+# Program
+```
 import numpy as np
 import matplotlib.pyplot as plt
+# Continuous signal parameters
 fm = 5                      # Message frequency 5hz
 fs = 50                     # Sampling frequency 50hz
 t = np.linspace(0, 1, 1000) # Continuous time axis
@@ -49,8 +65,13 @@ plt.grid()
 
 plt.tight_layout()
 plt.show()
+```
+# Output Waveform
 
-#OUTPUT
-<img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/65e44851-e51b-4218-bd44-ee8fa2977c65" />
+<img width="1492" height="989" alt="image" src="https://github.com/user-attachments/assets/45e52dd8-36aa-4a8a-87f1-d44d182e69bb" />
 
- 
+# Results
+
+Thus Experimental verification of Signal sampling using various types is verified.
+
+
